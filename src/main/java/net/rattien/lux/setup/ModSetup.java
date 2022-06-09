@@ -7,7 +7,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
 public class ModSetup {
 
-    public static final String TAB_LUX_NAME = "Lux";
+    public static final String TAB_LUX_NAME = "lux";
 
     public static final CreativeModeTab TAB_LUX = new CreativeModeTab(TAB_LUX_NAME) {
         @Override

@@ -1,3 +1,7 @@
-ebb09db8b591328e86572ccc3f4cc71da699cbb7 assets/lux/lang/en_us.json
+752b04d39a6f807a8f3284a0d9eb817149a98aa0 assets/lux/lang/en_us.json
 9e92f151080c80e733785f5846046c48b64ef509 assets/lux/models/item/lens.json
 1f564eb5611081f047d5d93dc12240f016adf26e assets/lux/models/item/magnifying_glass.json
+a53792ce771f5d417f614327d218261731b6af66 data/lux/advancements/recipes/lux/lens.json
+24350fc6a97c288c9f2f317f256d4df707b7d495 data/lux/advancements/recipes/lux/magnifying_glass.json
+298025126877b79e7ef96fff6a0c60c713bf78e3 data/lux/recipes/lens.json
+195ef9d6128ff938da8a434684b4c70becc90bd1 data/lux/recipes/magnifying_glass.json

@@ -3,12 +3,13 @@ package net.rattien.lux.datagen;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.rattien.lux.Lux;
+
+import static net.rattien.lux.Lux.MODID;
 
 public class LuxBlockStates extends BlockStateProvider {
 
     public LuxBlockStates(DataGenerator gen, ExistingFileHelper helper) {
-        super(gen, Lux.MODID, helper);
+        super(gen, MODID, helper);
     }
 
     @Override

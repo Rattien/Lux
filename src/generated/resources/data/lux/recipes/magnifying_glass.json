@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lux",
+  "pattern": [
+    " l",
+    "s "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "l": {
+      "item": "lux:lens"
+    }
+  },
+  "result": {
+    "item": "lux:magnifying_glass"
+  }
+}

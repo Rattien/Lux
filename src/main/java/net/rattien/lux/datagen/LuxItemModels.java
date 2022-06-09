@@ -3,13 +3,14 @@ package net.rattien.lux.datagen;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.rattien.lux.Lux;
 import net.rattien.lux.setup.Registration;
+
+import static net.rattien.lux.Lux.MODID;
 
 public class LuxItemModels extends ItemModelProvider {
 
     public LuxItemModels(DataGenerator generator, ExistingFileHelper helper) {
-        super(generator, Lux.MODID, helper);
+        super(generator, MODID, helper);
     }
 
     @Override

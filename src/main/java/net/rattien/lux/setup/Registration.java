@@ -18,9 +18,15 @@ public class Registration {
         ITEMS.register(bus);
     }
 
+    // ****************************************************************
+    // Item Properties
+    // ****************************************************************
     public static final Item.Properties DEFAULT_ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.TAB_LUX);
     public static final Item.Properties NONSTACKABLE_ITEM_PROPERTIES = DEFAULT_ITEM_PROPERTIES.stacksTo(1);
 
+    // ****************************************************************
+    // Items
+    // ****************************************************************
     public static final RegistryObject<Item> LENS = ITEMS.register("lens", () -> new Item(DEFAULT_ITEM_PROPERTIES));
     public static final RegistryObject<Item> MAGNIFYING_GLASS = ITEMS.register("magnifying_glass", () -> new Item(NONSTACKABLE_ITEM_PROPERTIES));
 

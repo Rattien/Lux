@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "lux:magnifying_glass"
+    ]
+  },
+  "criteria": {
+    "get_lens": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lux:lens"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "lux:magnifying_glass"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_lens",
+      "has_the_recipe"
+    ]
+  ]
+}
